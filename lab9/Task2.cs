@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab9
 {
-    public delegate double DelegateTask1(double a, double b);
+    public delegate double DelegateTask2(double a, double b);
 
     class Task2
     {
@@ -14,7 +14,7 @@ namespace lab9
         {
             int choice, a, b;
             string[] input;
-            DelegateTask1 operation;
+            DelegateTask2 operation;
             do
             {
                 Console.Write("Enter numbers: ");
